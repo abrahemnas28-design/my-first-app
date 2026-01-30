@@ -8,7 +8,7 @@ if 'repairs' not in st.session_state:
     st.session_state.repairs = 0
 
 # הצגת המשתנה למשתמש
-st.subheader(f"סה"כ תקלות שטופלו היום: {st.session_state.repairs}")
+st.subheader(f"סה'כ תקלות שטופלו היום: {st.session_state.repairs}")
 
 # הפעולה - כפתור שמעדכן את המשתנה
 if st.button("✅ סימנתי תקלה כטופלה"):
