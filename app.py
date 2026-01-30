@@ -1,3 +1,3 @@
-import streamlit as st# העובד מקליד שם, והשם נשמר בתוך "תיבה" שקוראים לה worker
-worker = "אברהים" 
-st.write(f"העובד הנוכחי: {worker}")
+import streamlit as st
+
+user_name = st.text_input("נא להזין שם עובד:")
