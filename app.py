@@ -1,5 +1,5 @@
 import streamlit as st
-st.tittle("המונה של אברהים")
+st.title("המונה של אברהים")
 if 'count' not in st.session_state:
     st.session_state.count = 0
 st.write(f"המספר הנוכחי הוא: {st.session_state.count}")
