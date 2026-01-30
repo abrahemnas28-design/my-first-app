@@ -29,6 +29,6 @@ if st.button("🔄 איפוס מונה"):
     st.session_state.count = 0
     st.rerun()
 
-if st,button("ضيف ثلاث"):
+if st.button("ضيف ثلاث"):
     st.session_state.count+=3
     st.rerun()
