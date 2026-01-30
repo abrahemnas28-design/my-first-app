@@ -1,8 +1,10 @@
 import streamlit as st
+st.tittle("המונה של אברהים")
+if 'count' not in st.session_state
+      st.session_state=0
+st.write(f"המספר הנוכחי הוא: {st.session_state.count}")
 
-st.title("הפרויקט החדש של אברהים")
-st.write("ברוכים הבאים לאפליקציה הראשונה שבניתי לבד!")
+if st.button("לחץ כאן כדי להוסיף 1"):
+    st.session_state.count += 1
+    st.rerun()
 
-name = st.text_input("איך קוראים לך?")
-if st.button("לחץ כאן"):
-    st.success(f"שלום {name}, הקוד עובד!")
